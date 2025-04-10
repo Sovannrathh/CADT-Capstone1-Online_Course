@@ -12,7 +12,7 @@
 <body class="bg-gray-100">
     <div class="flex h-screen">
         <!-- Sidebar -->
-        <aside class="w-64 bg-yellow-400 p-5 space-y-4 hidden md:block">
+        <aside class="w-64 bg-blue-400 p-5 space-y-4 hidden md:block">
             <h2 class="text-xl font-bold">ចុះឈ្មោះ</h2>
             {{-- <ul class="space-y-2 border-cyan-300">
                 <li class="text-gray-800">📂 ផ្ទាំងគ្រប់គ្រង</li>

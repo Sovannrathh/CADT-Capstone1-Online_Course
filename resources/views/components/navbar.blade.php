@@ -3,7 +3,7 @@
         <div class="relative flex h-16 items-center justify-between">
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div class="flex shrink-0 items-center">
-                    <a href="http://127.0.0.1:8000/courses"><img class="h-15 w-20" src="{{ asset('images/logo.png') }}"
+                    <a href="http://127.0.0.1:8000/"><img class="h-15 w-20" src="{{ asset('images/logo.png') }}"
                             alt="Logo"></a>
                 </div>
                 {{-- <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">

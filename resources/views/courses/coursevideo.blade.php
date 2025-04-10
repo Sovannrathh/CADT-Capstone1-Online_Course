@@ -10,7 +10,7 @@
 <body class="bg-gray-100 font-sans">
 
     <!-- Header -->
-    <div class="bg-yellow-400 p-6 text-center shadow-lg">
+    <div class="bg-blue-400 p-6 text-center shadow-lg">
         <h1 class="text-3xl font-semibold text-white">កម្មវិធីសិក្សាតាមប្រព័ន្ធអនឡាញ</h1>
     </div>
 
@@ -32,7 +32,7 @@
                     </div>
                     <div class="p-6">
                         <h2 class="text-2xl font-semibold text-gray-800 mb-2">{{ $lesson->title }}</h2>
-                        <p class="text-yellow-500 font-semibold">ចុចដើម្បីមើលវីដេអូ</p>
+                        <p class="text-blue-500 font-semibold">ចុចដើម្បីមើលវីដេអូ</p>
                     </div>
                 </div>
             @endforeach

@@ -15,7 +15,7 @@
 
     <div class="flex">
         <!-- Sidebar -->
-        <nav class="w-1/5 bg-yellow-500 text-white p-4">
+        <nav class="w-1/5 bg-blue-500 text-white p-4">
             <ul>
                 <li class="mb-4">
                     <a href="#" class="flex items-center px-4 py-2 bg-gray-200 text-black rounded hover:bg-gray-300">
@@ -25,20 +25,20 @@
                         ព័តមានផ្ទាល់ខ្លួន
                     </a>
                 </li>
-                <li class="mb-4">
+                {{-- <li class="mb-4">
                     <a href="{{route('dashboard')}}" class="flex items-center px-4 py-2 bg-gray-200 text-black rounded hover:bg-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                         </svg>
                         ចាកចេញ
                     </a>
-                </li>
+                </li> --}}
                 <li class="mb-4">
                     <a href="{{route('logout')}}" class="flex items-center px-4 py-2 bg-gray-200 text-black rounded hover:bg-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                         </svg>
-                        Logout
+                        ចាកចេញ
                     </a>
                 </li>
             </ul>
@@ -61,7 +61,7 @@
                 <form class="mt-6 w-full max-w-md">
                     <div class="mb-4">
                         <label class="block text-gray-700 font-bold">ឈ្មោះ</label>
-                        <input type="text" value="កែវ ចិន្តារ៉ា" class="w-full p-2 border rounded">
+                        <input type="text" value="" class="w-full p-2 border rounded">
                     </div>
 
                     <div class="mb-4">
@@ -79,11 +79,11 @@
 
                     <div class="mb-4">
                         <label class="block text-gray-700 font-bold">អាសយដ្ឋាន</label>
-                        <textarea class="w-full p-2 border rounded">ភូមិអន្លង់ ស្រុកកណ្តាល ខេត្តកណ្តាល</textarea>
+                        <textarea class="w-full p-2 border rounded"></textarea>
                     </div>
 
                     <!-- Save Button -->
-                    <button type="submit" class="w-full px-6 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">
+                    <button type="submit" class="w-full px-6 py-2 bg-blue-500 text-white rounded hover:bg-yellow-600">
                         រក្សាទុក
                     </button>
                 </form>

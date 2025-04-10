@@ -79,13 +79,13 @@
                             class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700">Upload</button>
                 </form>
 
-                <div class="mt-4 text-center">
+                {{-- <div class="mt-4 text-center">
                     <span class="text-gray-500">OR</span>
                     <div class="mt-2">
                         <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Import from Google
                             Drive</button>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         </div>

@@ -1,5 +1,5 @@
 <x-layout>
-    <h1>Post index page</h1>
+    {{-- <h1>Post index page</h1> --}}
     {{-- {{ $coursename }} --}}
     {{-- <ul>
         <li>{{$category[0]}}</li>

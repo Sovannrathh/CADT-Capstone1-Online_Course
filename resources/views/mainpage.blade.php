@@ -170,7 +170,7 @@
     <!-- Main content area -->
     <main class="flex-grow">
         <!-- Your main content goes here -->
-        <div class="w-full h-[400px] bg-amber-400 mx-auto place-content-center my-0">
+        <div class="w-full h-[400px] bg-blue-400 mx-auto place-content-center my-0">
             {{-- @yield('contentMain') --}}
             <div class="container p-5 grid grid-cols-2 gap-5 md:flex-row ">
                 <div class="grid grid-rows-2 justify-center">
@@ -178,7 +178,7 @@
                         <blockquote class="text-center text-6xl font-semibold text-gray-900 italic px-4">
                             ទទួលបាន​
                             <span
-                                class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-amber-500 m-3">
+                                class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-blue-500 m-3">
                                 <span class="relative text-gray-50">ចំណេះ</span>
                             </span>
                             <span>ដឹងថ្មី</span>
@@ -191,7 +191,7 @@
                         <h1>ផ្នែក design ផ្នែក Networking </h1>
                     </div>
                 </div>
-                <div class="bg-amber-400 w-[600px] h-[300px] place-content-center">
+                <div class="bg-blue-400 w-[600px] h-[300px] place-content-center">
                     <img src="{{ asset('images/sidebar.png') }}" alt="senior photo">
                 </div>
             </div>
@@ -201,7 +201,7 @@
                     <div class="container w-[200px] h-[125px]">
                         <p>ដៃគូសហការ</p>
                         <div class="size-20 flex-none">
-                            <img src="{{ asset('images/moey.svg.png') }}" alt="moeys logo" class="w-[79px] h-[75px]">
+                            {{-- <img src="{{ asset('') }}" alt="moeys logo" class="w-[79px] h-[75px]"> --}}
                         </div>
 
                     </div>
